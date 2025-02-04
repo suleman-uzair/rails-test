@@ -1,0 +1,20 @@
+{
+  "name": "Rails 8 Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/itsmechlark/features/postgresql:1": {},
+    "ghcr.io/devcontainers/features/ruby:1": {
+      "version": "3.3"  // or whatever Ruby version you need
+    },
+    "ghcr.io/devcontainers/features/node:1": {},
+  },
+  "postCreateCommand": [ "bin/setup" ],
+  "settings": {
+    "ruby.rubyPath": "/usr/local/ruby/bin/ruby",
+    "ruby.rubyVersion": "3.1"  // Optional, specify Ruby version here if using VS Code's Ruby extension
+  },
+  "extensions": [
+    "rebornix.ruby",
+    "ms-vscode.vscode-typescript-next"
+  ]
+}
