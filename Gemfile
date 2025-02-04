@@ -28,7 +28,7 @@ gem "solid_cache"
 gem "solid_queue"
 gem "solid_cable"
 
-gem "plurimath"
+gem "plurimath", git: "https://github.com/plurimath/plurimath", branch: "fix/mml_require_in_rails_tests"
 gem "unitsml"
 
 # Reduces boot times through caching; required in config/boot.rb

@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/plurimath/plurimath
+  revision: 68ed79a7201865da663e6ded157a4e65e0dbe335
+  branch: fix/mml_require_in_rails_tests
+  specs:
+    plurimath (0.8.23)
+      bigdecimal
+      lutaml-model
+      mml
+      ox
+      parslet
+      thor
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -202,13 +215,6 @@ GEM
       racc
     parslet (2.0.0)
     pg (1.5.9)
-    plurimath (0.8.23)
-      bigdecimal
-      lutaml-model
-      mml
-      ox
-      parslet
-      thor
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
@@ -388,7 +394,7 @@ DEPENDENCIES
   jbuilder
   kamal
   pg (~> 1.1)
-  plurimath
+  plurimath!
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.1)
