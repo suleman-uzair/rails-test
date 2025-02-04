@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/plurimath/plurimath
-  revision: 68ed79a7201865da663e6ded157a4e65e0dbe335
+  revision: 8597e13621030c20e494e13bf9dd144946c9fb0e
   branch: fix/mml_require_in_rails_tests
   specs:
     plurimath (0.8.23)
